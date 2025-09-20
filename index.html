@@ -1,75 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mithun Gawas - Resume</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mithun Gawas — Resume</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Mithun Gawas</h1>
-      <p class="title">Java Developer</p>
-      <p>📞 8010084705 | ✉️ mithungawas12@gmail.com</p>
+  <div class="resume">
+    <header class="header">
+      <div class="name">
+        <h1>Mithun Gawas</h1>
+        <p class="role">Java developer</p>
+      </div>
+      <div class="contact">
+        <p><span class="phone">📞 8010084705</span></p>
+        <p><a href="mailto:mithungawas12@gmail.com">✉ mithungawas12@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/mithungawas36" target="_blank" rel="noopener">linkedin.com/in/mithungawas36</a></p>
+      </div>
     </header>
 
-    <section>
-      <h2>CAREER SUMMARY</h2>
-      <p>
-        I am 26 years old, Experienced Developer with 2.5 years of hands-on expertise in developing, implementing, and maintaining scalable web applications.
-        Proven ability to work on back-end technologies, delivering high-quality solutions. Adept at collaborating with cross-functional teams to drive projects.
-      </p>
-    </section>
+    <main>
+      <section class="section summary">
+        <h2>Career Summary</h2>
+        <p>Immediate joiner. Java Developer with 3 years of experience in building scalable web applications using Java, Spring Boot, and Microservices. Skilled in REST API development, OOP, SQL databases, and testing (unit &amp; integration). Strong problem-solving abilities, quick learner, and effective team collaborator.</p>
+      </section>
 
-    <section>
-      <h2>EDUCATION AND CERTIFICATION</h2>
-      <p>Bachelors of Engineering | University of Mumbai</p>
-    </section>
-
-    <section>
-      <h2>TECHNICAL SKILLS</h2>
-      <ul>
-        <li><strong>Languages:</strong> HTML, CSS, Java, SQL</li>
-        <li><strong>Frameworks:</strong> Spring, Spring Boot, ZK framework, Microservices</li>
-        <li><strong>Databases:</strong> MSSQL, PostgreSQL</li>
-        <li><strong>Additional skills:</strong> Spring Security, JWT, AWS Cloud</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>WORK EXPERIENCE</h2>
-
-      <div class="job">
-        <h3>System Engineer | Tata Consultancy Services, Ltd</h3>
-        <p class="duration">May 2024 – Current</p>
-        <ul>
-          <li>Developed 10+ web pages using ZK framework, implemented schedulers for automated payment files.</li>
-          <li>Handled production issue fixes with proper debugging practices.</li>
-          <li>Created server-side APIs in Java for web applications.</li>
-          <li>Conducted code reviews and mentored junior developers.</li>
+      <section class="section skills">
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+          <li>Java</li><li>SQL</li><li>HTML</li><li>CSS</li><li>Spring boot</li><li>Spring Data JPA</li>
+          <li>MsSQL</li><li>PostgreSQL</li><li>Hibernate</li><li>Maven</li><li>RESTFUL API</li><li>Spring security</li>
+          <li>Postman</li><li>Swagger</li><li>JUnit</li><li>Git</li><li>GitHub</li><li>TortoiseSVN</li>
+          <li>JWT</li><li>Jenkins</li><li>Docker</li>
         </ul>
-      </div>
+      </section>
 
-      <div class="job">
-        <h3>Assistant System Engineer | Tata Consultancy Services, Ltd</h3>
-        <p class="duration">May 2023 – April 2024</p>
-        <ul>
-          <li>Created 40+ manual SQL queries for client reports.</li>
-          <li>Developed 10+ REST APIs in Java for mobile backend development.</li>
-        </ul>
-      </div>
+      <section class="section experience">
+        <h2>Work Experience</h2>
 
-      <div class="job">
-        <h3>Assistant System Engineer - Trainee | Tata Consultancy Services, Ltd</h3>
-        <p class="duration">May 2022 – April 2023</p>
+        <div class="job">
+          <h3>System Engineer | Tata Consultancy services limited (TCS) | Pune</h3>
+          <p class="date">(05/2022–present)</p>
+
+          <p><strong>Client Name</strong> - State bank of India (SBI)</p>
+          <p><strong>Application Name</strong> – DigiGov Fund Management System (FMS)</p>
+
+          <h4>Responsibilities:</h4>
+          <ul>
+            <li>Analyzed, Designed, developed, and maintained Java web application based on client requirements.</li>
+            <li>Developed and tested multiple web pages from scratch by using java, spring framework, SQL. Performed SIT, UAT, and production testing as well as testing of the module and took it to closure.</li>
+            <li>Implemented a scheduler for XML file processing, handling encryption/decryption for secure data exchange.</li>
+            <li>Built RESTful web services to support mobile applications, ensuring seamless integration.</li>
+            <li>Enhanced product quality by debugging, optimizing performance, and deploying hotfixes for production issues.</li>
+            <li>Created unit tests (JUnit, Mockito) and improved code coverage by addressing SonarQube-reported issues before PR submissions.</li>
+            <li>Wrote complex SQL queries for advanced data retrieval and reporting.</li>
+            <li>Conducted code reviews and mentorships to junior developer, contributing to knowledge –sharing culture.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section projects">
+        <h2>Personal project
+            
+        </h2>
+
+        <div class="project">
+          <h4>Employee Webapp   
+            <a style="color:var(--accent);" href="https://github.com/mithoon-18/Angular-springboot-mysql" target="_blank" rel="noopener">Github link</a>
+          </h4>
+          <p>A Full-Stack Web Application built with Angular, Spring Boot, and MySQL that allows users to manage employee information efficiently. The project demonstrates CRUD operations, REST API integration, and database connectivity with a clean UI built using Angular.</p>
+        </div>
+
+        <div class="project">
+          <h4>springboot-restful-webservices-complete
+            <a style="color:var(--accent);" href="https://github.com/mithoon-18/springboot-restful-webservices-complete" target="_blank" rel="noopener">Github link</a>
+          </h4>
+          <p>This project demonstrates the implementation of RESTful Web Services using Spring Boot, covering all the essential features required for building scalable, secure, and production-ready APIs.
+        </div>
+      </section>
+
+      <section class="section education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Engineering (Electrical)</strong> – University of Mumbai (2018-2021) | 8.37 CGPA</p>
+      </section>
+
+      <section class="section awards">
+        <h2>Award and recognition</h2>
         <ul>
-          <li>Created design documentation, unit test plans, and code documentation.</li>
-          <li>Trained in web backend development.</li>
+          <li>Received the Star Team Award twice.</li>
+          <li>Best Team Award</li>
+          <li>On the spot Team Award</li>
         </ul>
-      </div>
-    </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p><a href="mailto:mithungawas12@gmail.com">mithungawas12@gmail.com</a> | <a href="https://www.linkedin.com/in/mithungawas36" target="_blank" rel="noopener">https://www.linkedin.com/in/mithungawas36</a></p>
+    </footer>
   </div>
 </body>
 </html>
- 
